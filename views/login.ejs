@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>로그인</title>
+    <link rel='stylesheet'  type='text/css' href="/style.css">
+</head>
+<body>
+    <div id="stylized" class="myform">
+        <form id="form" name="form" method="post">
+        <h1>글쓰기 폼</h1>
+        <p>기본적인 입력폼입니다.</p>
+        <label>Name
+        <span class="small">이름 입력</span>
+        </label>
+        <input type="text" name="name" id="name" />
+        <label>Password
+        <span class="small">패스워드 6자 이상</span>
+        </label>
+        <input type="text" name="password" id="password" />
+        <button type="submit">Sign-up</button>
+        <div class="spacer"></div>
+        </form>
+        <form method="GET" action="/register"></form>
+        </div>    
+</body>
+</html>
